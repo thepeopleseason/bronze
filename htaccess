@@ -1,0 +1,8 @@
+# RedirectPermanent old file locations
+#
+ErrorDocument 404 /cgi-bin/cgiwrap/hsiao/buffy/bronze-404
+
+# Add Cascading Style Sheet MIME Type
+AddType text/css CSS
+AddType audio/x-pn-readaudio RM
+AddType audio/x-pn-readaudio RPM
