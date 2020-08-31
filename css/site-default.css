@@ -1,0 +1,92 @@
+/* James T. Hsiao -- Cascading Style Sheet Site Defaults */
+
+BODY 
+{
+  margin-right: 10%;
+}
+/* Default Paragraph: no leading v-space and no trailing v-space */
+P 
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.init 
+{ 
+  margin-top: 0; 
+  margin-bottom: 0; 
+  text-indent: 0;
+}
+
+.block /* Block paragraph: leading v-space and no indent space */
+{ 
+  margin-top: 1em;
+  margin-bottom: 0;
+  text-indent: 0;
+}
+
+.indent /* Indented paragraph: no leading v-space and indent space */
+{ 
+  margin-top: 0; 
+  margin-bottom: 0;
+  text-indent: 2em;
+}
+
+.cited /* Works Cited entry: outdent space */
+{
+  margin-left: 5%;
+  text-indent: -2em;
+}
+
+SMALL { font-size: 80%; } 
+
+/* Classes */
+/* Alignment classes: replaces ALIGN attribute in HTML */
+.l-align { float: left; }
+.r-align { float: right; }
+
+/* Hidden classes: supplemental material for non CSS browsers */ 
+.unseen-black
+{ 
+  display: none;
+  color: #000;
+  background: transparent;
+}
+
+.unseen-white
+{ 
+  display: none;
+  color: #FFF;
+  background: transparent;
+}
+
+BLOCKQUOTE
+{
+  font-style: italic;
+}
+
+BLOCKQUOTE P 
+{
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.attribution
+{
+  font-style: normal;
+  margin-top: 0;
+  text-align: right;
+}
+
+/* DIV class left-img column */
+.imgcol 
+{ 
+  position: static; 
+}
+
+.textcol 
+{ 
+  width: auto; 
+  top: auto; 
+  left: 1em; 
+} 
